@@ -12,7 +12,28 @@
   scroll-behavior: smooth;
   color-scheme: dark;
 }
+.hireme {
+  display: flex;
 
+  justify-content: center;
+  align-items: center;
+}
+.computers-canvas {
+  cursor: pointer; /* Set the cursor style to pointer */
+}
+
+.hireme button {
+  background-color: #915eff;
+  box-shadow: 0 0 20px #915eff;
+  font-weight: 600;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 20px 30px;
+  margin: 30px;
+}
+.custom-gap > * {
+  margin-right: 200px; /* Or any desired value */
+}
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
